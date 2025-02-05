@@ -10,6 +10,28 @@
     <!-- the canvas must go before the script  to run properly -->
     <canvas id="canvas1"></canvas>
 
+    <div class="controls">
+        <label for="sprite-types">Choose Cat Type</label>
+        <select id="sprite-types" name="cat-types">
+            <option value="Batman" selected>Batman</option>
+            <option value="Black">Black</option>
+            <option value="Brown">Brown</option>
+            <option value="Classical">Classical</option>
+            <option value="Demonic">Demonic</option>
+            <option value="Egypt">Egypt</option>
+            <option value="Siamese">Siamese</option>
+            <option value="ThreeColor">Three Color</option>
+            <option value="Tiger">Tiger</option>
+            <option value="White">White</option>
+            <option value="Xmas">Xmas</option>
+        </select>
+    </div>
+
+    <input type="radio" id="idle-state" name="sprite-state" value="idle" checked>
+    <label for="idle-state">Idle</label>
+    <input type="radio" id="jump-state" name="sprite-state" value="jump">
+    <label for="jump-state">Jump</label><br>
+
     <script src="js/main.js"></script>
 </body>
 </html>
